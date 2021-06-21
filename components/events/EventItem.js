@@ -45,7 +45,7 @@ function EventItem({ title, image, date, location, landmark, id }) {
 					</div>
 				</div>
 				<div className="btn flex space-x-2 md:space-x-4 items-center justify-center justify-self-start self-start shadow-xl">
-					<Link href={exploreLink}>Explore Events</Link>
+					<Link href={exploreLink}>Explore Event</Link>
 					<BsArrowRight className="text-lg md:text-xl" />
 				</div>
 			</div>

@@ -38,13 +38,13 @@ function EventDetailContent({
 							<HiOutlineLocationMarker />
 						</div>
 
-						<div>
+						<div className="text-gray-700">
 							<address>{address}</address>
 							<address>{landmark}</address>
 						</div>
 					</div>
 				</div>
-				<div className="w-full text-justify">
+				<div className="w-full text-justify text-gray-700">
 					<p>{description}</p>
 				</div>
 			</div>

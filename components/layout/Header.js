@@ -8,7 +8,7 @@ function Header() {
 			<div className="logo text-xl md:text-3xl text-white">
 				<Link href="/">Eventor</Link>
 			</div>
-			<span onClick={() => router.push("/events")} className="btnHeader">
+			<span onClick={() => router.push("/events")} className="btnWhite">
 				<span>Browse All Events</span>
 			</span>
 		</header>
